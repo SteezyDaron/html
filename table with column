@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+    <br><br>
+    <table border="4">
+        <caption>Table with column span</caption>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Loan No</th> 
+        </tr>
+        <tr>
+            <td>Jones</td>
+            <td>L-1</td>
+            <td>L-2</td>
+        </tr>
+    </table>
+    <caption> Table with row span</caption>
+    <table border="5">
+        <tr>
+            <th>Name</th>
+            <td>Jones</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Loan No</th>
+            <td>L-1</td>
+        </tr>
+        <tr>
+            <td>L-2</td>
+        </tr>
+    
+    </table>
+
+</body>
+</html>
