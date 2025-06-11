@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Posts Table</title>
+  <style>
+    table {
+            border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    
+  
+  </style>
+</head>
+<body>
+  <table>
+    <h2 style="text-align: center;">Post List</h2>
+    <thead>
+      <tr>
+        <th>Post ID</th>
+        <th>Title</th>
+        <th>Content</th>
+        <th>Created By</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Wollan</td>
+        <td>Ruto Must Go!</td>
+        <td>Wantam</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Bill</td>
+        <td>Ruto Must Go!</td>
+        <td>Wantam</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Peter</td>
+        <td>Ruto Must Go!</td>
+        <td>Wantam</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Odhiambo</td>
+        <td>Ruto Must Go!</td>
+        <td>Wantam</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Steezy</td>
+        <td>Ruto Must Go!</td>
+        <td>Wantam</td>
+      </tr>
+
+    </tbody>
+  </table>
+</body>
+</html>
